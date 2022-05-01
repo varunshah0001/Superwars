@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto;
+    display: flex;
+    justify-content: center;
+  }
+
+.grid-item{
+    text-align: center;
+    border: solid 1px rgb(119, 114, 114);
+    border-radius: 5px;
+}
+.score{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.names{
+    font-size: 17px;
+}
+#score{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 40px;
+}
